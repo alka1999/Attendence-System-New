@@ -28,10 +28,11 @@ export default function Login() {
                         <div className='p-col checkboxcol'>
 
                             <div className="p-field-checkbox">
-                                <InputText className='input' inputId="city1" type='checkbox' name="city" value="Chicago"/>
+                                <InputText className='input' inputId="city1" type='checkbox' name="city" value="Chicago" />
                                 <label htmlFor="city1">Remember me</label>
+                                
                             </div>
-
+                            
                         </div>
                         <div className='p-col'>
                             <Button label="Login" className="p-button-success btnl" />

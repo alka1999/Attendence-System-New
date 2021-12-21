@@ -1,0 +1,27 @@
+::-webkit-scrollbar{
+    display: none;
+}
+
+.avt{
+    background-color: #f3eaf1;
+}
+.nav{
+    background-color: #2F959B;
+    padding-top: 10px;
+    height: 70px;
+    width: 100%;
+    
+}
+.avt:hover{
+    cursor: pointer;
+}
+.optdiv{
+    background-color: #f3eaf1;
+    height: 42vw;
+}
+.sidediv{
+    
+    background-image: url('../assets/blred\ image.webp');
+    background-repeat: no-repeat;
+}
+
