@@ -10,18 +10,11 @@
     padding-top: 10px;
     height: 70px;
     width: 100%;
-    
+
 }
 .avt:hover{
     cursor: pointer;
 }
-.optdiv{
-    background-color: #f3eaf1;
-    height: 42vw;
+.end{
+    padding: 0.5rem;
 }
-.sidediv{
-    
-    background-image: url('../assets/blred\ image.webp');
-    background-repeat: no-repeat;
-}
-

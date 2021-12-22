@@ -1,18 +1,11 @@
 import React from 'react'
 import { Avatar } from 'primereact/avatar';
 import { Button } from 'primereact/button';
-import {  } from "../Component/Landing.css";
-import Login from "../Component/Login";
+import {  } from "../Landing/Landing.css";
 import { BrowserRouter, Link, Route } from "react-router-dom";
 import { Component } from 'react/cjs/react.development';
 export default function Landing() {
-    function login(){
-        return(
-        <BrowserRouter>
-            <Route path="/login" Component={<Login/>} />
-        </BrowserRouter>
-        )
-    }
+    
     return (
         <BrowserRouter>
         <div>
@@ -34,7 +27,7 @@ export default function Landing() {
                             <p> <b className='company'>HEXADIGI</b> Employess self service </p>
                             <Avatar label="A" className="p-mr-2" size="xlarge" shape="circle" />
                             
-                            <Button label="Login" onClick={login} className="p-button-rounded p-button-success loginbtn" />
+                            <Button label="Login" className="p-button-rounded p-button-success loginbtn" />
                             
 
                             

@@ -1,0 +1,12 @@
+.sidenav{
+
+    background-image: url('/src/images/emp.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.optdiv{
+    background-color: #f3eaf1;
+    height: 100vh;
+}
+
+

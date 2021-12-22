@@ -1,0 +1,20 @@
+.head{
+    margin: 10px 1%;
+}
+.parent{
+    padding: 20px 100px;
+}
+.dwd{
+    text-align: right;
+}
+.show{
+    background-color: #ece7df;
+    margin: 5% 2%;
+    text-align: center;
+    height: auto;
+    border-radius: 10px;
+    padding: 30px 10px;
+}
+.list{
+    margin: auto;
+}

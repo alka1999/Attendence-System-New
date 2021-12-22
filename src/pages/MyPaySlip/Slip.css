@@ -1,0 +1,16 @@
+.head{
+    margin: 10px 10%;
+}
+.mybtn{
+    margin: 1.7rem;
+    text-align: center;
+}
+.parent{
+    width: 80%;
+    background-color: #ece7df;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+.mycol{
+    margin: 0.7rem;
+}
