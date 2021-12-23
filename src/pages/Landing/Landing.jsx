@@ -1,16 +1,16 @@
 import React from "react";
 import { Avatar } from "primereact/avatar";
 import { Button } from "primereact/button";
-import {} from "../Landing/Landing.css";
+import "../Landing/Landing.css";
 import { Link } from "react-router-dom";
-import { Component } from "react/cjs/react.development";
+
 export default function Landing() {
   return (
     <div>
       <div className="mydiv text-center">
         <p>
-          welcome to the <strong>HEXADIGI SOFTWARE PRIVATE LIMITED</strong>{" "}
-          portal by....{" "}
+          welcome to the <strong>HEXADIGI SOFTWARE PRIVATE LIMITED</strong>
+          portal by....
         </p>
       </div>
       <div className="p-grid">
@@ -34,8 +34,7 @@ export default function Landing() {
             </div>
             <div className="demo-container p-p-0 p-p-sm-1 p-p-md-2 p-p-lg-3">
               <p>
-                {" "}
-                <b className="company">HEXADIGI</b> Employess self service{" "}
+                <b className="company">HEXADIGI</b> Employess self service
               </p>
               <Avatar
                 label="A"
