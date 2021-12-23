@@ -1,0 +1,26 @@
+
+.parent{
+    width: 80%;
+    margin: 2% auto;
+}
+.pass-container{
+    width: 50%;
+    margin: auto;
+}
+.pass{
+    width: 100%;
+    margin: 5%;
+}
+.p-password {
+    position: relative;
+    display: inline-flex;
+    width: 100%;
+    margin: auto;
+}
+.p-inputtext {
+    margin: 0;
+    width: 100%;
+}
+.my-btn{
+    width: 100%;
+}

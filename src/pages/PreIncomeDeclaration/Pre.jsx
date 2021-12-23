@@ -36,7 +36,7 @@ export default function Pre() {
                 options={cities}
                 onChange={(e) => setSelectedCity(e.value)}
                 optionLabel="name"
-                style={{ width: "13rem" }}
+                style={{ width: "80%", margin: "auto" }}
               />
             </div>
           </div>
@@ -49,7 +49,7 @@ export default function Pre() {
                 options={cities}
                 onChange={(e) => setSelectedCity(e.value)}
                 optionLabel="name"
-                style={{ width: "13rem" }}
+                style={{ width: "80%", margin: "auto" }}
               />
             </div>
           </div>
@@ -62,7 +62,7 @@ export default function Pre() {
                 options={cities}
                 onChange={(e) => setSelectedCity(e.value)}
                 optionLabel="name"
-                style={{ width: "13rem" }}
+                style={{ width: "80%", margin: "auto" }}
               />
             </div>
           </div>
@@ -75,7 +75,7 @@ export default function Pre() {
                 options={cities}
                 onChange={(e) => setSelectedCity(e.value)}
                 optionLabel="name"
-                style={{ width: "13rem" }}
+                style={{ width: "80%", margin: "auto" }}
               />
             </div>
           </div>

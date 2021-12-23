@@ -1,6 +1,9 @@
 import React from "react";
 import { Avatar } from "primereact/avatar";
 import "./Topnav.css";
+import { BsFillChatSquareDotsFill } from "react-icons/bs";
+import { IoAlertCircle } from "react-icons/io5";
+import { MdHelp } from "react-icons/md";
 
 export default function Topnav() {
   return (
@@ -25,14 +28,14 @@ export default function Topnav() {
                 <div className="p-col">
                   <div className="card">
                     <Avatar className="p-mr-5  avt" size="large" shape="circle">
-                      <icon className="pi pi-fw pi-bell"></icon>
+                      <IoAlertCircle color="#ff0000" size="90%"/>
                     </Avatar>
 
                     <Avatar className="p-mr-5 avt" size="large" shape="circle">
-                      <icon className="pi pi-fw pi-comments"></icon>
+                      <BsFillChatSquareDotsFill color="#f3eaf1" size="70%"/>
                     </Avatar>
-                    <Avatar className="p-mr-5 avt" size="large" shape="circle">
-                      <icon className="pi pi-fw pi-info-circle"></icon>
+                    <Avatar className="p-mr-4 avt" size="large"  shape="circle">
+                      <MdHelp size="85%" color="#f3eaf1"/>
                     </Avatar>
                   </div>
                 </div>

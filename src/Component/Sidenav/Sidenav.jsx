@@ -22,24 +22,42 @@ export default function Sidenav() {
         },
         {
           label: "My Pay Slip",
+          command: () => {
+            navigateTo("/my-pay-slip");
+          },
         },
         {
           label: "My Tax Report",
+          command: () => {
+            navigateTo("/my-tax-report");
+          },
         },
         {
           label: "My Form 16",
+          command: () => {
+            navigateTo("/my-form16");
+          },
         },
         {
           label: "Income Tax Calculator",
         },
         {
           label: "Change Password",
+          command: () => {
+            navigateTo("/change-password");
+          },
         },
         {
           label: "Annual Salary Statement",
+          command: () => {
+            navigateTo("/annual-salary-statement");
+          },
         },
         {
           label: "Investment Declaration",
+          command: () => {
+            navigateTo("/investment-declaration");
+          },
         },
         {
           label: "Personal Details",

@@ -1,5 +1,5 @@
 .head{
-    margin: 10px 1%;
+    margin: 0.5%;
 }
 .parent{
     padding: 20px 100px;
@@ -9,7 +9,7 @@
 }
 .show{
     background-color: #ece7df;
-    margin: 5% 2%;
+    margin: 2% 10%;
     text-align: center;
     height: auto;
     border-radius: 10px;
