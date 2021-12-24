@@ -1,6 +1,6 @@
 .parent{
     background-color: #ece7df;
-    width: 90%;
+    width: 99%;
     padding: 3%;
 }
 .redirect{
@@ -14,4 +14,9 @@ a{
 }
 .redirect-btn{
     text-align: center;
+}
+.poptype{
+    background-color: #ffffff;
+    padding: 1% 4%;
+    border-radius: 10px;
 }

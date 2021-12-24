@@ -1,0 +1,22 @@
+.head{
+    margin: 2% 10%;
+}
+.parent{
+    background-color: #ece7df;
+    margin: 2% 10%;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    padding: 30px 10px;
+    text-align: left;
+}
+.showopt{
+    border: 1px solid #000000;
+    border-radius: 6px;
+    margin: auto;
+    text-align: center;
+}
+
+.list{
+    margin: auto;
+}

@@ -61,9 +61,15 @@ export default function Sidenav() {
         },
         {
           label: "Personal Details",
+          command: () => {
+            navigateTo("/personal-detail");
+          },
         },
         {
           label: "My Queries",
+          command: () => {
+            navigateTo("/my-query");
+          },
         },
       ],
     },
@@ -72,9 +78,15 @@ export default function Sidenav() {
       items: [
         {
           label: "My Leave Application",
+          command: () => {
+            navigateTo("/my-leave-applications");
+          },
         },
         {
           label: "My Leave Calender",
+          command: () => {
+            navigateTo("/my-leave-calender");
+          },
         },
       ],
     },
@@ -102,7 +114,7 @@ export default function Sidenav() {
 
   return (
     <div>
-      <PanelMenu model={navigationList} />
+      <PanelMenu model={navigationList}/>
     </div>
   );
 }
